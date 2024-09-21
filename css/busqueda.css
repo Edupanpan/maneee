@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: black; /* Fondo negro para html y body */
+    color: white; /* Para asegurar que el texto sea visible */
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black; /* Fondo negro para el contenedor */
+}
+
+.row {
+    flex: 1;
+}
+
+.btn-block {
+    height: 100%;
+}
+
+.bg-black {
+    background-color: black; /* Aplica fondo negro al contenedor */
+}
